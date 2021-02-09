@@ -2,7 +2,7 @@ from OnePieceCharacters import Characters
 
 
 class Marine(Characters):
-    def __init__(self, rank, name, age, devil_fruit, voice_actor):
+    def __init__(self, name, age, devil_fruit, voice_actor, rank):
         super().__init__(name, age, devil_fruit, voice_actor)
         self.rank = rank
 

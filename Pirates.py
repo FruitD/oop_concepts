@@ -2,7 +2,7 @@ from OnePieceCharacters import Characters
 
 
 class Pirate(Characters):
-    def __init__(self, crew, name, age, devil_fruit, bounty, voice_actor):
+    def __init__(self, name, age, devil_fruit, voice_actor, crew, bounty):
         super().__init__(name, age, devil_fruit, voice_actor)
         self.bounty = bounty
         self.crew = crew
