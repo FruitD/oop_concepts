@@ -9,7 +9,7 @@ class Characters:
         return False
 
     def show_bounty(self):
-        return {"{} has a bounty of {}.".format(self.name, self.bounty)}
+        return f"{self.name} has a bounty of {self.bounty}."
 
     def show_fruit(self):
         if self.devil_fruit is not None:

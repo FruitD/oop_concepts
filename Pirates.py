@@ -6,5 +6,3 @@ class Pirate(Characters):
         super().__init__(name, age, devil_fruit, bounty)
         self.crew = []
 
-    def isGood(self):
-        return True
